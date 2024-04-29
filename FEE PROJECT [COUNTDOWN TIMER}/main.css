@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.b{
+    font-size: 15rem;
+    -webkit-text-stroke: 2px;
+    -webkit-text-stroke-color: blue;
+    color: rgb(80, 154, 218);
+
+}
+.theme-anime{
+    background-image: url('http://hdqwalls.com/download/iron-man-avengers-endgame-4k-2019-og-3840x2400.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.navbar{
+    background-color: #ffffffc6;
+}
+.glow-clock{
+    font-size: 15rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+
+}
+.clock{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.timer-container {
+  text-align: center;
+}
+
+#timer{
+    font-weight: 600;
+    font-size: 5rem;
+    font-family:sans-serif;
+    /* display: flex; */
+    justify-content: center;
+    display: inline;
+    -webkit-text-stroke: 2px;
+    -webkit-text-stroke-color: blue;
+    color: rgb(80, 154, 218);
+    
+}
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+.container1{
+    width:500px;
+    height: 520px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    align-items: center;
+    background-color: #ffffff95;
+    margin-top: 40px;
+}
+#img2{
+    display: none;
+}
+#img3{
+    display: none;
+}
+body {
+    transition: background-color 0.3s ease;
+  }
+  /* .theme-anime {
+    background-image: url('https://wallpapercave.com/wp/wp9737739.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+  } */
+.theme-space {
+    background-image: url('https://wallpapercave.com/wp/wp7051639.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.theme-nature {
+    background-image: url('https://wallpaperbat.com/img/342204-download-wallpaper-3840x2160-river-forest-sunset-landscape-art.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
